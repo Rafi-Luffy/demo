@@ -1,5 +1,5 @@
-/* The Google Font import MUST be the very first line */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Kalam:wght@300;400;700&display=swap');
+/* Elegant serif and script fonts for charity donation platform */
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Alex+Brush&family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Allura&family=Sacramento&family=Kaushan+Script&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=Poppins:wght@300;400;500;600;700&display=swap');
 
 /* Tailwind directives come after the imports */
 @tailwind base;
@@ -61,21 +61,248 @@
 }
 
 @layer base {
-  * {
-    border-color: rgb(var(--border));
-    border-width: 1px;
-    border-style: solid;
-  }
   body {
     background-color: rgb(var(--background));
     color: rgb(var(--foreground));
     font-family: 'Poppins', sans-serif;
     font-feature-settings: "rlig" 1, "calt" 1;
     line-height: 1.6;
+    overflow-x: hidden; /* Prevent horizontal scroll */
   }
 
   .handwritten {
     font-family: 'Kalam', cursive;
+  }
+
+  /* Ensure all containers are responsive */
+  * {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Responsive base styles */
+  .container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  /* Ensure images are responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Prevent text overflow */
+  h1, h2, h3, h4, h5, h6 {
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+}
+
+/* Enhanced font rendering and styling for beautiful typography */
+@layer base {
+  /* Ensure smooth font rendering */
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Default body font */
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* UNIFIED FONT STYLES - All headings use same script font */
+  .font-heading {
+    font-family: 'Tangerine', 'Great Vibes', 'Alex Brush', 'Allura', cursive !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
+    font-style: normal !important;
+  }
+
+  .font-hero-script {
+    font-family: 'Tangerine', 'Great Vibes', 'Alex Brush', 'Allura', cursive !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+    font-style: normal !important;
+  }
+
+  .font-cute {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+  }
+
+  .font-sweet {
+    font-family: 'Cookie', cursive;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+  }
+
+  .font-main {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* Hindi/Devanagari text specific styling */
+  .hindi-text {
+    font-family: 'Kalam', 'Caveat', cursive;
+    font-weight: 600;
+  }
+}
+
+/* Custom typography styles for charity aesthetic */
+.font-decorative {
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.font-elegant {
+  letter-spacing: 0.01em;
+  font-variant-ligatures: common-ligatures;
+}
+
+.font-serif-warm {
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+.font-serif-classic {
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+/* Enhanced heading styles - UNIFIED SCRIPT FONT FOR ALL HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Tangerine', 'Great Vibes', 'Alex Brush', 'Allura', cursive !important;
+  font-weight: 700 !important;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  letter-spacing: 0.5px !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
+  font-style: normal !important;
+  word-wrap: break-word;
+  hyphens: auto;
+  line-height: 1.2 !important;
+}
+
+/* Specific heading sizes - increased for better visibility */
+h1 {
+  font-size: 5.5rem !important;
+}
+
+h2 {
+  font-size: 4.2rem !important;
+}
+
+h3 {
+  font-size: 3.5rem !important;
+}
+
+h4 {
+  font-size: 2.8rem !important;
+}
+
+h5 {
+  font-size: 2.2rem !important;
+}
+
+h6 {
+  font-size: 1.8rem !important;
+}
+
+/* Special styling for main headings */
+.main-heading {
+  font-display: swap;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.decorative-text {
+  color: #f97316; /* Orange-500 */
+  font-weight: 700;
+  font-style: normal;
+}
+
+.elegant-text {
+  color: #1f2937; /* Gray-800 */
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Improve readability */
+.font-main {
+  line-height: 1.6;
+  letter-spacing: 0.005em;
+}
+
+@layer components {
+  /* Clean heading component styles - matching image style */
+  .section-heading {
+    font-family: 'Tangerine', 'Great Vibes', 'Alex Brush', 'Allura', cursive;
+    font-weight: 700;
+    font-size: 4.2rem;
+    letter-spacing: 0.5px;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-style: normal;
+  }
+
+  .hero-script {
+    font-family: 'Tangerine', 'Great Vibes', 'Alex Brush', 'Allura', cursive;
+    font-weight: 700;
+    font-size: 5.5rem;
+    letter-spacing: 0.5px;
+    color: rgb(255, 154, 0);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-style: normal;
+    line-height: 1.1;
+  }
+
+  .hero-serif {
+    font-family: 'Playfair Display', 'Cormorant Garamond', serif;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+  }
+
+  .hero-subtitle {
+    font-family: 'Tangerine', 'Great Vibes', 'Alex Brush', 'Allura', cursive;
+    font-weight: 700;
+    font-size: 3.2rem;
+    letter-spacing: 0.5px;
+    color: rgb(52, 168, 83);
+    font-style: normal;
+    line-height: 1.3;
+  }
+
+  .charity-question {
+    font-family: 'Tangerine', 'Great Vibes', 'Alex Brush', 'Allura', cursive;
+    font-weight: 700;
+    font-size: 5rem;
+    letter-spacing: 1px;
+    color: rgb(51, 51, 51);
+    line-height: 1.1;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-style: normal;
   }
 }
 
@@ -182,6 +409,158 @@
   z-index: -1;
 }
 
+/* Comprehensive responsive utilities */
+@layer utilities {
+  /* Responsive spacing utilities */
+  .space-y-responsive > * + * {
+    margin-top: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .space-y-responsive > * + * {
+      margin-top: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .space-y-responsive > * + * {
+      margin-top: 2rem;
+    }
+  }
+
+  /* Responsive text utilities */
+  .text-responsive-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  @media (min-width: 640px) {
+    .text-responsive-sm {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+
+  .text-responsive-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  @media (min-width: 640px) {
+    .text-responsive-base {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+    }
+  }
+
+  .text-responsive-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  @media (min-width: 640px) {
+    .text-responsive-lg {
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .text-responsive-lg {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+  }
+
+  /* Responsive headings */
+  .heading-responsive-xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  @media (min-width: 640px) {
+    .heading-responsive-xl {
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .heading-responsive-xl {
+      font-size: 3rem;
+      line-height: 1;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .heading-responsive-xl {
+      font-size: 3.75rem;
+      line-height: 1;
+    }
+  }
+
+  /* Responsive padding */
+  .p-responsive {
+    padding: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .p-responsive {
+      padding: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .p-responsive {
+      padding: 2rem;
+    }
+  }
+
+  /* Responsive margin */
+  .m-responsive {
+    margin: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .m-responsive {
+      margin: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .m-responsive {
+      margin: 2rem;
+    }
+  }
+
+  /* Prevent horizontal overflow */
+  .no-horizontal-scroll {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+  }
+
+  /* Improved button responsiveness */
+  .btn-responsive {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+
+  @media (min-width: 640px) {
+    .btn-responsive {
+      padding: 0.625rem 1.25rem;
+      font-size: 1rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .btn-responsive {
+      padding: 0.75rem 1.5rem;
+      font-size: 1.125rem;
+    }
+  }
+}
+
 /* Imperfect grid */
 .imperfect-grid {
   display: grid;
@@ -239,12 +618,15 @@
   transition: width 1s ease-out;
 }
 
-/* Typography with human touch */
+/* Typography with unified script font for headings */
 .heading-handmade {
-  font-family: 'Kalam', cursive;
+  font-family: 'Tangerine', 'Great Vibes', 'Alex Brush', 'Allura', cursive !important;
+  font-weight: 700 !important;
   color: #333;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-  line-height: 1.2;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
+  line-height: 1.2 !important;
+  letter-spacing: 0.5px !important;
+  font-style: normal !important;
 }
 
 .text-warm {

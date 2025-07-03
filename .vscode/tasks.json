@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Frontend",
+			"type": "shell",
+			"command": "pnpm build",
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			]
+		},
+		{
+			"label": "Dev Server",
+			"type": "shell",
+			"command": "cd apps/frontend && pnpm dev",
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Backend Server",
+			"type": "shell",
+			"command": "cd apps/backend && npm run dev",
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}

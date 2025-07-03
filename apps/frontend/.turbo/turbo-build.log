@@ -1,0 +1,5 @@
+
+
+> @charity/frontend@1.0.0 build /Users/rafi/Documents/new repo_0/demo/apps/frontend
+> tsc && vite build
+

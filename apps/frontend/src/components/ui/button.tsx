@@ -20,6 +20,7 @@ const buttonVariants = cva(
         golden: "bg-warm-golden text-warm-charcoal hover:bg-warm-golden-dark shadow-gentle hover:shadow-warm transform hover:rotate-1 transition-all duration-300",
         sage: "bg-warm-sage text-white hover:bg-warm-green shadow-gentle hover:shadow-warm",
         organic: "bg-gradient-to-r from-warm-orange to-warm-green text-white hover:from-warm-orange-dark hover:to-warm-green-dark shadow-warm hover:shadow-handmade transform hover:-translate-y-1 hover:rotate-1 transition-all duration-300 rounded-organic",
+        charity: "bg-warm-blue text-white hover:bg-warm-blue-dark shadow-gentle hover:shadow-warm transform hover:scale-105 transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",

@@ -1,0 +1,220 @@
+
+
+> @charity/backend@1.0.0 build /Users/rafi/Documents/new repo_0/demo/apps/backend
+> tsc
+
+[96msrc/models/Audit.ts[0m:[93m5[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ type: typeof Schema.Types.ObjectId; ref: string; required: true; }' is not assignable to type 'SchemaDefinitionProperty<string, IAudit, Document<unknown, {}, FlatRecord<IAudit>, {}> & FlatRecord<IAudit> & Required<{ _id: string; }> & { ...; }> | undefined'.
+  Types of property 'type' are incompatible.
+    Type 'typeof ObjectId' is not assignable to type 'typeof Mixed | StringSchemaDefinition | undefined'.
+      Type 'typeof ObjectId' is not assignable to type 'typeof Mixed | StringConstructor | typeof String'.
+        Type 'typeof ObjectId' is not assignable to type 'typeof Mixed'.
+          Types of property 'schemaName' are incompatible.
+            Type '"ObjectId"' is not assignable to type '"Mixed"'.
+
+[7m5[0m   auditor: {
+[7m [0m [91m  ~~~~~~~[0m
+
+[96msrc/models/Audit.ts[0m:[93m10[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ type: typeof Schema.Types.ObjectId; ref: string; required: true; }' is not assignable to type 'SchemaDefinitionProperty<string, IAudit, Document<unknown, {}, FlatRecord<IAudit>, {}> & FlatRecord<IAudit> & Required<{ _id: string; }> & { ...; }> | undefined'.
+  Types of property 'type' are incompatible.
+    Type 'typeof ObjectId' is not assignable to type 'typeof Mixed | StringSchemaDefinition | undefined'.
+      Type 'typeof ObjectId' is not assignable to type 'typeof Mixed | StringConstructor | typeof String'.
+        Type 'typeof ObjectId' is not assignable to type 'typeof Mixed'.
+          Types of property 'schemaName' are incompatible.
+            Type '"ObjectId"' is not assignable to type '"Mixed"'.
+
+[7m10[0m   campaign: {
+[7m  [0m [91m  ~~~~~~~~[0m
+
+[96msrc/models/Audit.ts[0m:[93m116[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'findings' does not exist on type 'IfAny<ResolveTimestamps<ObtainDocumentType<any, RawDocType, ResolveSchemaOptions<TSchemaOptions>>, ResolveSchemaOptions<TSchemaOptions>>, any, Document<...> & Default__v<...>>'.
+
+[7m116[0m   const criticalFindings = this.findings.filter(f => f.severity === 'critical').length;
+[7m   [0m [91m                                ~~~~~~~~[0m
+
+[96msrc/models/Audit.ts[0m:[93m116[0m:[93m49[0m - [91merror[0m[90m TS7006: [0mParameter 'f' implicitly has an 'any' type.
+
+[7m116[0m   const criticalFindings = this.findings.filter(f => f.severity === 'critical').length;
+[7m   [0m [91m                                                ~[0m
+
+[96msrc/models/Audit.ts[0m:[93m117[0m:[93m29[0m - [91merror[0m[90m TS2339: [0mProperty 'findings' does not exist on type 'IfAny<ResolveTimestamps<ObtainDocumentType<any, RawDocType, ResolveSchemaOptions<TSchemaOptions>>, ResolveSchemaOptions<TSchemaOptions>>, any, Document<...> & Default__v<...>>'.
+
+[7m117[0m   const highFindings = this.findings.filter(f => f.severity === 'high').length;
+[7m   [0m [91m                            ~~~~~~~~[0m
+
+[96msrc/models/Audit.ts[0m:[93m117[0m:[93m45[0m - [91merror[0m[90m TS7006: [0mParameter 'f' implicitly has an 'any' type.
+
+[7m117[0m   const highFindings = this.findings.filter(f => f.severity === 'high').length;
+[7m   [0m [91m                                            ~[0m
+
+[96msrc/models/Audit.ts[0m:[93m118[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'findings' does not exist on type 'IfAny<ResolveTimestamps<ObtainDocumentType<any, RawDocType, ResolveSchemaOptions<TSchemaOptions>>, ResolveSchemaOptions<TSchemaOptions>>, any, Document<...> & Default__v<...>>'.
+
+[7m118[0m   const mediumFindings = this.findings.filter(f => f.severity === 'medium').length;
+[7m   [0m [91m                              ~~~~~~~~[0m
+
+[96msrc/models/Audit.ts[0m:[93m118[0m:[93m47[0m - [91merror[0m[90m TS7006: [0mParameter 'f' implicitly has an 'any' type.
+
+[7m118[0m   const mediumFindings = this.findings.filter(f => f.severity === 'medium').length;
+[7m   [0m [91m                                              ~[0m
+
+[96msrc/models/Audit.ts[0m:[93m142[0m:[93m49[0m - [91merror[0m[90m TS7006: [0mParameter 'f' implicitly has an 'any' type.
+
+[7m142[0m   const criticalFindings = this.findings.filter(f => f.severity === 'critical' && !f.resolved).length;
+[7m   [0m [91m                                                ~[0m
+
+[96msrc/models/Audit.ts[0m:[93m143[0m:[93m45[0m - [91merror[0m[90m TS7006: [0mParameter 'f' implicitly has an 'any' type.
+
+[7m143[0m   const highFindings = this.findings.filter(f => f.severity === 'high' && !f.resolved).length;
+[7m   [0m [91m                                            ~[0m
+
+[96msrc/models/Campaign.ts[0m:[93m183[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType '{ type: typeof Schema.Types.ObjectId; ref: string; required: [true, string]; }' is not assignable to type 'SchemaDefinitionProperty<string, ICampaign, Document<unknown, {}, FlatRecord<ICampaign>, {}> & FlatRecord<ICampaign> & Required<{ _id: string; }> & { ...; }> | undefined'.
+  Types of property 'type' are incompatible.
+    Type 'typeof ObjectId' is not assignable to type 'typeof Mixed | StringSchemaDefinition | undefined'.
+      Type 'typeof ObjectId' is not assignable to type 'typeof Mixed | StringConstructor | typeof String'.
+        Type 'typeof ObjectId' is not assignable to type 'typeof Mixed'.
+          Types of property 'schemaName' are incompatible.
+            Type '"ObjectId"' is not assignable to type '"Mixed"'.
+
+[7m183[0m   creator: {
+[7m   [0m [91m  ~~~~~~~[0m
+
+[96msrc/models/Campaign.ts[0m:[93m309[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'raisedAmount' does not exist on type 'IfAny<ResolveTimestamps<ObtainDocumentType<any, RawDocType, ResolveSchemaOptions<TSchemaOptions>>, ResolveSchemaOptions<TSchemaOptions>>, any, Document<...> & Default__v<...>>'.
+
+[7m309[0m   return Math.min((this.raisedAmount / this.targetAmount) * 100, 100)
+[7m   [0m [91m                        ~~~~~~~~~~~~[0m
+
+[96msrc/models/Campaign.ts[0m:[93m309[0m:[93m45[0m - [91merror[0m[90m TS2339: [0mProperty 'targetAmount' does not exist on type 'IfAny<ResolveTimestamps<ObtainDocumentType<any, RawDocType, ResolveSchemaOptions<TSchemaOptions>>, ResolveSchemaOptions<TSchemaOptions>>, any, Document<...> & Default__v<...>>'.
+
+[7m309[0m   return Math.min((this.raisedAmount / this.targetAmount) * 100, 100)
+[7m   [0m [91m                                            ~~~~~~~~~~~~[0m
+
+[96msrc/models/Campaign.ts[0m:[93m313[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'endDate' does not exist on type 'IfAny<ResolveTimestamps<ObtainDocumentType<any, RawDocType, ResolveSchemaOptions<TSchemaOptions>>, ResolveSchemaOptions<TSchemaOptions>>, any, Document<...> & Default__v<...>>'.
+
+[7m313[0m   if (!this.endDate) return null
+[7m   [0m [91m            ~~~~~~~[0m
+
+[96msrc/models/Campaign.ts[0m:[93m315[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'endDate' does not exist on type 'IfAny<ResolveTimestamps<ObtainDocumentType<any, RawDocType, ResolveSchemaOptions<TSchemaOptions>>, ResolveSchemaOptions<TSchemaOptions>>, any, Document<...> & Default__v<...>>'.
+
+[7m315[0m   const timeDiff = this.endDate.getTime() - today.getTime()
+[7m   [0m [91m                        ~~~~~~~[0m
+
+[96msrc/models/Campaign.ts[0m:[93m328[0m:[93m8[0m - [91merror[0m[90m TS2339: [0mProperty 'milestones' does not exist on type 'IfAny<FlatRecord<DocType>, any, TVirtuals & TInstanceMethods extends Record<string, never> ? Document<unknown, {}, FlatRecord<...>, TVirtuals> & Default__v<...> : IfAny<...>>'.
+
+[7m328[0m   this.milestones.forEach((milestone, index) => {
+[7m   [0m [91m       ~~~~~~~~~~[0m
+
+[96msrc/models/Campaign.ts[0m:[93m328[0m:[93m28[0m - [91merror[0m[90m TS7006: [0mParameter 'milestone' implicitly has an 'any' type.
+
+[7m328[0m   this.milestones.forEach((milestone, index) => {
+[7m   [0m [91m                           ~~~~~~~~~[0m
+
+[96msrc/models/Campaign.ts[0m:[93m328[0m:[93m39[0m - [91merror[0m[90m TS7006: [0mParameter 'index' implicitly has an 'any' type.
+
+[7m328[0m   this.milestones.forEach((milestone, index) => {
+[7m   [0m [91m                                      ~~~~~[0m
+
+[96msrc/models/User.ts[0m:[93m132[0m:[93m14[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 5, '(payload: string | object | Buffer<ArrayBufferLike>, secretOrPrivateKey: null, options?: (SignOptions & { algorithm: "none"; }) | undefined): string', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type 'null'.
+  Overload 2 of 5, '(payload: string | object | Buffer<ArrayBufferLike>, secretOrPrivateKey: Buffer<ArrayBufferLike> | Secret | PrivateKeyInput | JsonWebKeyInput, options?: SignOptions | undefined): string', gave the following error.
+    Type 'string' is not assignable to type 'number | StringValue | undefined'.
+  Overload 3 of 5, '(payload: string | object | Buffer<ArrayBufferLike>, secretOrPrivateKey: Buffer<ArrayBufferLike> | Secret | PrivateKeyInput | JsonWebKeyInput, callback: SignCallback): void', gave the following error.
+    Object literal may only specify known properties, and 'expiresIn' does not exist in type 'SignCallback'.
+
+[7m132[0m   return jwt.sign(
+[7m   [0m [91m             ~~~~[0m
+
+
+[96msrc/models/User.ts[0m:[93m147[0m:[93m14[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 5, '(payload: string | object | Buffer<ArrayBufferLike>, secretOrPrivateKey: null, options?: (SignOptions & { algorithm: "none"; }) | undefined): string', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type 'null'.
+  Overload 2 of 5, '(payload: string | object | Buffer<ArrayBufferLike>, secretOrPrivateKey: Buffer<ArrayBufferLike> | Secret | PrivateKeyInput | JsonWebKeyInput, options?: SignOptions | undefined): string', gave the following error.
+    Type 'string' is not assignable to type 'number | StringValue | undefined'.
+  Overload 3 of 5, '(payload: string | object | Buffer<ArrayBufferLike>, secretOrPrivateKey: Buffer<ArrayBufferLike> | Secret | PrivateKeyInput | JsonWebKeyInput, callback: SignCallback): void', gave the following error.
+    Object literal may only specify known properties, and 'expiresIn' does not exist in type 'SignCallback'.
+
+[7m147[0m   return jwt.sign(
+[7m   [0m [91m             ~~~~[0m
+
+
+[96msrc/routes/admin.ts[0m:[93m236[0m:[93m11[0m - [91merror[0m[90m TS7034: [0mVariable 'campaignStats' implicitly has type 'any[]' in some locations where its type cannot be determined.
+
+[7m236[0m     const campaignStats = [];
+[7m   [0m [91m          ~~~~~~~~~~~~~[0m
+
+[96msrc/routes/admin.ts[0m:[93m237[0m:[93m11[0m - [91merror[0m[90m TS7034: [0mVariable 'donationStats' implicitly has type 'any[]' in some locations where its type cannot be determined.
+
+[7m237[0m     const donationStats = [];
+[7m   [0m [91m          ~~~~~~~~~~~~~[0m
+
+[96msrc/routes/admin.ts[0m:[93m244[0m:[93m20[0m - [91merror[0m[90m TS7005: [0mVariable 'campaignStats' implicitly has an 'any[]' type.
+
+[7m244[0m         campaigns: campaignStats,
+[7m   [0m [91m                   ~~~~~~~~~~~~~[0m
+
+[96msrc/routes/admin.ts[0m:[93m245[0m:[93m20[0m - [91merror[0m[90m TS7005: [0mVariable 'donationStats' implicitly has an 'any[]' type.
+
+[7m245[0m         donations: donationStats
+[7m   [0m [91m                   ~~~~~~~~~~~~~[0m
+
+[96msrc/routes/audits.ts[0m:[93m303[0m:[93m36[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type 'IAuditFinding[]'.
+
+[7m303[0m     const finding = audit.findings.id(req.params.findingId);
+[7m   [0m [91m                                   ~~[0m
+
+[96msrc/routes/audits.ts[0m:[93m311[0m:[93m26[0m - [91merror[0m[90m TS18048: [0m'req.user' is possibly 'undefined'.
+
+[7m311[0m     finding.resolvedBy = req.user.id;
+[7m   [0m [91m                         ~~~~~~~~[0m
+
+[96msrc/routes/auth.ts[0m:[93m176[0m:[93m7[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ name: any; email: any; phone: any; 'profile.bio': any; 'profile.location': any; 'profile.website': any; 'profile.socialLinks': any; 'profile.preferences': any; }'.
+  No index signature with a parameter of type 'string' was found on type '{ name: any; email: any; phone: any; 'profile.bio': any; 'profile.location': any; 'profile.website': any; 'profile.socialLinks': any; 'profile.preferences': any; }'.
+
+[7m176[0m       fieldsToUpdate[key] === undefined && delete fieldsToUpdate[key]
+[7m   [0m [91m      ~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/routes/auth.ts[0m:[93m176[0m:[93m51[0m - [91merror[0m[90m TS7053: [0mElement implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ name: any; email: any; phone: any; 'profile.bio': any; 'profile.location': any; 'profile.website': any; 'profile.socialLinks': any; 'profile.preferences': any; }'.
+  No index signature with a parameter of type 'string' was found on type '{ name: any; email: any; phone: any; 'profile.bio': any; 'profile.location': any; 'profile.website': any; 'profile.socialLinks': any; 'profile.preferences': any; }'.
+
+[7m176[0m       fieldsToUpdate[key] === undefined && delete fieldsToUpdate[key]
+[7m   [0m [91m                                                  ~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/routes/campaigns.ts[0m:[93m258[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type 'IMilestone[]'.
+
+[7m258[0m     const milestone = campaign.milestones.id(req.params.milestoneId);
+[7m   [0m [91m                                          ~~[0m
+
+[96msrc/routes/campaigns.ts[0m:[93m296[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'id' does not exist on type 'IMilestone[]'.
+
+[7m296[0m     const milestone = campaign.milestones.id(req.params.milestoneId);
+[7m   [0m [91m                                          ~~[0m
+
+[96msrc/routes/donations.ts[0m:[93m101[0m:[93m44[0m - [91merror[0m[90m TS2339: [0mProperty 'creator' does not exist on type 'ObjectId'.
+
+[7m101[0m         req.user?.id !== donation.campaign.creator.toString()) {
+[7m   [0m [91m                                           ~~~~~~~[0m
+
+[96msrc/utils/jwt.ts[0m:[93m4[0m:[93m14[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 5, '(payload: string | object | Buffer<ArrayBufferLike>, secretOrPrivateKey: null, options?: (SignOptions & { algorithm: "none"; }) | undefined): string', gave the following error.
+    Argument of type 'string' is not assignable to parameter of type 'null'.
+  Overload 2 of 5, '(payload: string | object | Buffer<ArrayBufferLike>, secretOrPrivateKey: Buffer<ArrayBufferLike> | Secret | PrivateKeyInput | JsonWebKeyInput, options?: SignOptions | undefined): string', gave the following error.
+    Type 'string' is not assignable to type 'number | StringValue | undefined'.
+  Overload 3 of 5, '(payload: string | object | Buffer<ArrayBufferLike>, secretOrPrivateKey: Buffer<ArrayBufferLike> | Secret | PrivateKeyInput | JsonWebKeyInput, callback: SignCallback): void', gave the following error.
+    Object literal may only specify known properties, and 'expiresIn' does not exist in type 'SignCallback'.
+
+[7m4[0m   return jwt.sign({ id: userId }, process.env.JWT_SECRET!, {
+[7m [0m [91m             ~~~~[0m
+
+
+
+Found 32 errors in 9 files.
+
+Errors  Files
+    10  src/models/Audit.ts[90m:5[0m
+     8  src/models/Campaign.ts[90m:183[0m
+     2  src/models/User.ts[90m:132[0m
+     4  src/routes/admin.ts[90m:236[0m
+     2  src/routes/audits.ts[90m:303[0m
+     2  src/routes/auth.ts[90m:176[0m
+     2  src/routes/campaigns.ts[90m:258[0m
+     1  src/routes/donations.ts[90m:101[0m
+     1  src/utils/jwt.ts[90m:4[0m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 2.[39m

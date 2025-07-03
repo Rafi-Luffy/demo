@@ -1,0 +1,434 @@
+{
+  "navigation": {
+    "home": "Home",
+    "campaigns": "Stories", 
+    "impact": "Impact",
+    "transparency": "Trust",
+    "volunteer": "Help",
+    "about": "About",
+    "contact": "Contact",
+    "donate": "Donate Now",
+    "dashboard": "My Impact",
+    "admin": "Admin", 
+    "blockchain": "Blockchain",
+    "audit": "Audits",
+    "smartContracts": "Smart Contracts",
+    "documents": "IPFS Documents",
+    "milestones": "Milestones"
+  },
+  "about": {
+    "hero": {
+      "title": "A Promise of Trust & Transparency",
+      "description": "We started DilSeDaan because we believe that giving from the heart should come with peace of mind. Discover the story and the people behind India's most transparent donation platform."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To revolutionize charity in India through radical transparency and technology"
+    },
+    "values": {
+      "title": "Our Values",
+      "transparency": {
+        "title": "Radical Transparency",
+        "description": "Every rupee is tracked on the blockchain. No secrets, no hidden fees."
+      },
+      "impact": {
+        "title": "Maximum Impact",
+        "description": "We measure and maximize the real-world effect of every donation."
+      },
+      "community": {
+        "title": "Community-Driven",
+        "description": "Building a family of donors, volunteers, and beneficiaries who care for each other."
+      },
+      "accessible": {
+        "title": "Accessible to All",
+        "description": "Making charitable giving easy and accessible, no matter the size of the gift."
+      }
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "members": {
+        "arjun": {
+          "name": "Arjun Sharma",
+          "role": "Founder & Visionary",
+          "bio": "Left a corporate job to make charity transparent, believing every rupee should reach those who need it.",
+          "quote": "Technology should serve humanity, not just profit."
+        },
+        "priya": {
+          "name": "Priya Patel",
+          "role": "CTO & Blockchain Architect",
+          "bio": "Built our transparency system. Passionate about using tech for social good.",
+          "quote": "Code can change the world, one block at a time."
+        }
+      }
+    }
+  },
+  "campaigns": {
+    "title": "Stories of Hope",
+    "subtitle": "Every story here is real. Every person deserves our support.",
+    "search": "Search stories...",
+    "categories": {
+      "all": "All Stories",
+      "education": "Education",
+      "emergency": "Emergency",
+      "healthcare": "Healthcare",
+      "water": "Water",
+      "childWelfare": "Child Welfare",
+      "women": "Women"
+    },
+    "sortBy": {
+      "urgent": "Most Urgent",
+      "nearingGoal": "Nearing Goal",
+      "newest": "Newest Stories",
+      "mostLoved": "Most Loved"
+    },
+    "noResults": "No campaigns found matching your criteria.",
+    "verified": "Verified",
+    "urgent": "URGENT",
+    "kindHearts": "kind hearts",
+    "progress": "Progress",
+    "complete": "complete",
+    "raised": "raised of",
+    "moreFamiliesToHelp": "more families to help",
+    "donateWithLove": "Donate with Love",
+    "campaign1": {
+      "title": "Padhega India, Tabhi Toh Badhega India!",
+      "description": "Let every child hold a book, not a broom. Support education for underprivileged children across India to build a stronger nation.",
+      "category": "Education",
+      "location": "Rural Schools across India",
+      "testimonial": "Your ₹300 helped Ravi from a Delhi slum get his school books. Now he dreams of becoming an engineer!"
+    },
+    "campaign2": {
+      "title": "Ek Thali Khushiyon Ki",
+      "description": "Feed one empty stomach, fill two hearts. Provide nutritious meals to hungry families and street children across India.",
+      "category": "Food & Nutrition",
+      "location": "Delhi, Mumbai, Kolkata Slums",
+      "testimonial": "Thanks to 89 donors, street children in Mumbai get hot meals daily. No child sleeps hungry anymore."
+    },
+    "campaign3": {
+      "title": "Beti Padhao, Sapne Sajao",
+      "description": "Educate a daughter, empower a nation. Support girl child education and break barriers to create tomorrow's leaders.",
+      "category": "Women Empowerment",
+      "location": "Rural India, UP, Bihar",
+      "testimonial": "Your kindness helped Meera from rural Bihar attend school. She's now the first girl in her village to reach 10th grade!"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "Have questions? Need help? Want to volunteer? We're here to listen and help."
+    },
+    "info": {
+      "email": {
+        "title": "Email Us",
+        "detail": "office@dilsedaan.org",
+        "action": "Send an Email"
+      },
+      "phone": {
+        "title": "Call Us",
+        "detail": "+91 98765 43210",
+        "action": "Call Now"
+      },
+      "office": {
+        "title": "Visit Us",
+        "detail": "DilSeDaan Foundation, Mumbai, India",
+        "action": "Get Directions"
+      }
+    },
+    "form": {
+      "title": "Send us a Message",
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! Your message has been sent.",
+      "error": "Sorry, there was an error sending your message."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "How do I know my donation reached the right people?",
+      "a1": "Every donation is tracked on blockchain and you'll receive photo updates of your impact.",
+      "q2": "Is my donation tax deductible?",
+      "a2": "Yes! We're registered under section 80G, so you can claim tax benefits.",
+      "q3": "Can I volunteer with you?",
+      "a3": "Absolutely! Visit our volunteer page to join our mission.",
+      "q4": "How transparent are you with donations?",
+      "a4": "100% transparent. Every rupee is tracked on blockchain with real photo/video updates."
+    }
+  },
+  "volunteer": {
+    "hero": {
+      "title": "Join Our Family of Change-Makers",
+      "subtitle": "Your time and skills can transform lives. Discover meaningful ways to make a difference in your community."
+    },
+    "why": {
+      "title": "Why Volunteer with DilSeDaan?",
+      "impact": {
+        "title": "Direct Impact",
+        "description": "See how your efforts directly help families and communities"
+      },
+      "community": {
+        "title": "Amazing Community",
+        "description": "Join 500+ volunteers who've become lifelong friends"
+      },
+      "skills": {
+        "title": "Skill Development",
+        "description": "Learn new skills while making a difference"
+      },
+      "recognition": {
+        "title": "Recognition",
+        "description": "Get certificates and references for your contribution"
+      }
+    },
+    "opportunities": {
+      "title": "Volunteer Opportunities",
+      "fieldWork": {
+        "title": "Field Work",
+        "description": "Visit communities, distribute resources, and see impact firsthand",
+        "commitment": "Weekends, 4-6 hours"
+      },
+      "digital": {
+        "title": "Digital Volunteering",
+        "description": "Help with social media, content creation, and online outreach",
+        "commitment": "Flexible, remote"
+      },
+      "events": {
+        "title": "Event Support",
+        "description": "Help organize fundraising events and awareness campaigns",
+        "commitment": "Occasional, 2-4 hours"
+      },
+      "skills": {
+        "title": "Skills-Based",
+        "description": "Use your professional skills in tech, design, marketing, or finance",
+        "commitment": "Flexible"
+      }
+    },
+    "testimonials": {
+      "title": "Volunteer Stories",
+      "stories": {
+        "rajesh": {
+          "name": "Rajesh Kumar",
+          "role": "IT Professional & Weekend Volunteer",
+          "quote": "Volunteering with DilSeDaan has given my weekends a purpose. Seeing smiles on children's faces is priceless.",
+          "duration": "2 years"
+        },
+        "sneha": {
+          "name": "Sneha Patel",
+          "role": "Content Creator & Digital Volunteer",
+          "quote": "I use my writing skills to tell stories of hope. It's amazing how my profession can help change lives.",
+          "duration": "1 year"
+        }
+      }
+    },
+    "application": {
+      "title": "Ready to Volunteer?",
+      "subtitle": "Fill out the form below and we'll get in touch with opportunities that match your interests and skills.",
+      "form": {
+        "name": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "location": "Your Location",
+        "interests": "Areas of Interest",
+        "skills": "Your Skills",
+        "availability": "Availability",
+        "experience": "Previous Volunteer Experience",
+        "motivation": "Why do you want to volunteer with us?",
+        "submit": "Apply to Volunteer",
+        "submitting": "Submitting Application...",
+        "success": "Thank you! We'll review your application and get back to you soon.",
+        "error": "Sorry, there was an error submitting your application."
+      }
+    }
+  },
+  "transparency": {
+    "hero": {
+      "title": "Complete Transparency",
+      "subtitle": "See exactly where every rupee goes. Our blockchain-powered transparency system ensures 100% accountability."
+    },
+    "blockchain": {
+      "title": "Blockchain Verification",
+      "description": "Every donation is recorded on blockchain for permanent, tamper-proof transparency.",
+      "features": {
+        "immutable": "Immutable Records",
+        "realTime": "Real-time Tracking",
+        "public": "Public Verification"
+      }
+    },
+    "financials": {
+      "title": "Financial Breakdown",
+      "programExpenses": "Program Expenses",
+      "operational": "Operational Costs",
+      "fundraising": "Fundraising Costs",
+      "description": "90% of donations go directly to beneficiaries"
+    },
+    "updates": {
+      "title": "Impact Updates",
+      "photos": "Photo Evidence",
+      "reports": "Progress Reports",
+      "beneficiary": "Beneficiary Feedback"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Dil Se Donate Karo",
+      "subtitle": "Made with love in India",
+      "description": "Your kindness can light up lives across India. Join thousands who're already spreading smiles, one donation at a time.",
+      "startDonating": "Start Your Kindness Journey",
+      "viewTransparency": "See Where Money Goes"
+    },
+    "stats": {
+      "title": "Together, We've Created Magic ✨",
+      "subtitle": "Real numbers, real impact, real smiles",
+      "familiesFed": "Families Fed",
+      "familiesFedDesc": "hot meals served with love",
+      "childrenEducated": "Children Educated", 
+      "childrenEducatedDesc": "dreams turned into reality",
+      "livesSaved": "Lives Saved",
+      "livesSavedDesc": "medical emergencies supported",
+      "skillsTrained": "Skills Trained",
+      "skillsTrainedDesc": "people empowered with new skills"
+    },
+    "stories": {
+      "title": "Real Stories, Real Smiles 😊",
+      "subtitle": "Every donation has a face, a story, and a grateful heart behind it",
+      "bridge": "Now, Your Turn to Create Magic ✨",
+      "bridgeSubtitle": "These stories could be yours too. Choose a cause and spread love."
+    },
+    "campaigns": {
+      "title": "Help These Beautiful Souls 🙏",
+      "subtitle": "Choose a cause that touches your heart. Every rupee makes a difference."
+    },
+    "trust": {
+      "title": "Why Trust DilSeDaan? 🤝",
+      "subtitle": "We're not just another donation platform. We're your neighbors who care.",
+      "blockchain": {
+        "title": "Blockchain Transparency",
+        "description": "Every rupee is tracked on blockchain. No corruption, no hidden fees. Just pure transparency."
+      },
+      "photos": {
+        "title": "Real Photo Updates", 
+        "description": "See photos and videos of exactly how your money helped. Real faces, real smiles."
+      },
+      "madeInIndia": {
+        "title": "Made with Love in India",
+        "description": "Built by young Indians who believe in the power of kindness and community."
+      }
+    },
+    "cta": {
+      "title": "Your Heart Can Change Everything 💝",
+      "subtitle": "Join 15,432 kind souls who chose to make a difference. Every donation, every smile, every life changed - it all starts with you.",
+      "startDonating": "Start Your Kindness Journey",
+      "volunteer": "Volunteer with Us",
+      "madeWithLove": "✨ Made with love by Indians, for Indians ✨"
+    }
+  },
+  "donation": {
+    "form": {
+      "amount": "Donation Amount",
+      "customAmount": "Enter custom amount",
+      "taxBenefit": "Tax Benefit: You can save ₹{amount} in taxes (80G)",
+      "donateAnonymously": "Donate Anonymously",
+      "anonymousDescription": "Your name won't be shown publicly",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "message": "Message (Optional)",
+      "messagePlaceholder": "Share why you're donating or leave a message of support...",
+      "paymentMethod": "Payment Method",
+      "submit": "Donate ₹{amount}",
+      "processing": "Processing...",
+      "security": "Your donation is secured by 256-bit SSL encryption and blockchain technology"
+    },
+    "success": {
+      "title": "Donation Successful!",
+      "message": "Thank you for your donation of ₹{amount}. You will receive a confirmation email shortly."
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back!",
+      "subtitle": "Sign in to continue your kindness journey",
+      "tab": "Sign In",
+      "button": "Sign In with Love",
+      "loading": "Signing In...",
+      "success": "You're now logged in to DilSeDaan.",
+      "failed": "Invalid email or password. Please try again."
+    },
+    "register": {
+      "title": "Join DilSeDaan",
+      "subtitle": "Start your journey of giving and making a difference",
+      "tab": "Sign Up",
+      "button": "Join the Community",
+      "loading": "Creating Account...",
+      "success": "Your account has been created successfully.",
+      "failed": "Registration failed. Please try again with different details."
+    },
+    "fields": {
+      "name": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "placeholders": {
+      "name": "Enter your full name",
+      "email": "Enter your email",
+      "password": "Enter your password",
+      "confirmPassword": "Confirm your password"
+    },
+    "validation": {
+      "nameRequired": "Please enter your full name",
+      "passwordMismatch": "Passwords don't match",
+      "passwordLength": "Password must be at least 6 characters long"
+    },
+    "password": {
+      "weak": "Weak",
+      "fair": "Fair",
+      "good": "Good",
+      "strong": "Strong"
+    },
+    "demo": {
+      "title": "Demo Mode",
+      "description": "Use the credentials below to test the platform:",
+      "admin": "Admin",
+      "user": "User"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "success": "Success",
+    "tryAgain": "Try Again",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "share": "Share",
+    "close": "Close",
+    "confirm": "Confirm",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "donate": "Donate with Love",
+    "readMore": "Read Full Story →",
+    "seeAll": "See All Stories",
+    "progress": "Progress",
+    "progressDone": "% done! 🎉",
+    "raised": "raised of",
+    "moreFamilies": "more families to help"
+  },
+  "languages": {
+    "selectLanguage": "Select Language",
+    "en": "English",
+    "hi": "हिंदी",
+    "ta": "தமிழ்",
+    "te": "తెలుగు",
+    "bn": "বাংলা",
+    "mr": "मराठी",
+    "gu": "ગુજરાતી",
+    "kn": "ಕನ್ನಡ"
+  }
+}

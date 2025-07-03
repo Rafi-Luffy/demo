@@ -2,10 +2,10 @@ import { motion } from 'framer-motion'
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts'
 import { Heart, TrendingUp, Users, Award, Download } from 'lucide-react'
 // Replace the following imports with the correct relative paths or mock implementations if the modules do not exist
-import { Button } from '../components/ui/button'
-import { Progress } from '../components/ui/progress'
-import { useDonationStore } from '../store/donationStore'
-import { formatCurrency } from '../lib/utils'
+import { Button } from '@/components/ui/button'
+import { Progress } from '@/components/ui/progress'
+import { useDonationStore } from '@/store/donationStore'
+import { formatCurrency } from '@/lib/utils'
 
 // --- MOCK DATA ---
 const monthlyData = [

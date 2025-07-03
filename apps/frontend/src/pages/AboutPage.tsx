@@ -1,32 +1,59 @@
 import { motion } from 'framer-motion'
 import { Heart, Shield, Users, Globe, Link as LinkIcon, Leaf } from 'lucide-react'
-import { Button } from '../components/ui/button'
+import { Button } from '@/components/ui/button'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 // --- MOCK DATA ---
 const teamMembers = [
-  { name: 'Arjun Sharma', role: 'Founder & Visionary', image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg', bio: 'Left a corporate job to make charity transparent, believing every rupee should reach those who need it.', quote: 'Technology should serve humanity, not just profit.' },
-  { name: 'Priya Patel', role: 'CTO & Blockchain Architect', image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg', bio: 'Built our transparency system. Passionate about using tech for social good.', quote: 'Code can change the world, one block at a time.' },
-  { name: 'Rahul Gupta', role: 'Head of Operations', image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg', bio: 'NGO veteran with 12 years of grassroots experience. Ensures every donation reaches the right hands.', quote: 'Trust is earned through action, not promises.' },
-  { name: 'Sneha Reddy', role: 'Head of Impact', image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg', bio: 'Measures our real-world impact and verifies every story we share.', quote: 'Every number represents a human life changed.' },
+  { 
+    name: 'about.team.members.arjun.name', 
+    role: 'about.team.members.arjun.role', 
+    image: '/images/image_10.png', 
+    bio: 'about.team.members.arjun.bio', 
+    quote: 'about.team.members.arjun.quote' 
+  },
+  { 
+    name: 'about.team.members.priya.name', 
+    role: 'about.team.members.priya.role', 
+    image: '/images/image_11.png', 
+    bio: 'about.team.members.priya.bio', 
+    quote: 'about.team.members.priya.quote' 
+  },
+  { 
+    name: 'about.team.members.rahul.name', 
+    role: 'about.team.members.rahul.role', 
+    image: '/images/image_12.png', 
+    bio: 'about.team.members.rahul.bio', 
+    quote: 'about.team.members.rahul.quote' 
+  },
+  { 
+    name: 'about.team.members.sneha.name', 
+    role: 'about.team.members.sneha.role', 
+    image: '/images/image_13.png', 
+    bio: 'about.team.members.sneha.bio', 
+    quote: 'about.team.members.sneha.quote' 
+  },
 ];
 
 const milestones = [
-  { year: '2020', title: 'The Dream Begins', description: 'DilSeDaan is founded with a simple, powerful idea: make charity transparent.', icon: Leaf },
-  { year: '2021', title: 'Blockchain Integration', description: 'We launch our revolutionary transparent donation tracking system.', icon: LinkIcon },
-  { year: '2022', title: '₹1 Crore Milestone', description: 'Our community raises its first crore in donations—all tracked with love.', icon: Heart },
-  { year: '2024', title: '50,000 Lives Touched', description: 'We directly help over 50,000 people across India with verified impact.', icon: Users },
+  { year: '2020', title: 'about.milestones.2020.title', description: 'about.milestones.2020.description', icon: Leaf },
+  { year: '2021', title: 'about.milestones.2021.title', description: 'about.milestones.2021.description', icon: LinkIcon },
+  { year: '2022', title: 'about.milestones.2022.title', description: 'about.milestones.2022.description', icon: Heart },
+  { year: '2024', title: 'about.milestones.2024.title', description: 'about.milestones.2024.description', icon: Users },
 ];
 
 const values = [
-  { icon: Shield, title: 'Radical Transparency', description: 'Every rupee is tracked on the blockchain. No secrets, no hidden fees.' },
-  { icon: Heart, title: 'Maximum Impact', description: 'We measure and maximize the real-world effect of every donation.' },
-  { icon: Users, title: 'Community-Driven', description: 'Building a family of donors, volunteers, and beneficiaries who care for each other.' },
-  { icon: Globe, title: 'Accessible to All', description: 'Making charitable giving easy and accessible, no matter the size of the gift.' },
+  { icon: Shield, title: 'about.values.transparency.title', description: 'about.values.transparency.description' },
+  { icon: Heart, title: 'about.values.impact.title', description: 'about.values.impact.description' },
+  { icon: Users, title: 'about.values.community.title', description: 'about.values.community.description' },
+  { icon: Globe, title: 'about.values.accessible.title', description: 'about.values.accessible.description' },
 ];
 
 // --- MAIN PAGE COMPONENT ---
 export function AboutPage() {
+  const { t } = useTranslation()
+  
   return (
     <div className="min-h-screen bg-warm-cream">
       {/* SECTION 1: HERO */}
@@ -34,13 +61,13 @@ export function AboutPage() {
         <div className="absolute inset-0 mandala-bg"></div>
         <div className="container mx-auto px-4 relative z-10">
           <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }} className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-6xl font-handwritten font-bold mb-6 text-warm-charcoal">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 text-warm-charcoal">
               <span className="inline-block transform -rotate-2 text-warm-orange">A Promise</span>
               <br />
-              <span className="inline-block transform rotate-1">of Trust & Transparency</span>
+              <span className="inline-block transform rotate-1">{t('about.hero.title')}</span>
             </h1>
-            <p className="text-xl md:text-2xl text-warm-charcoal-light mb-8 leading-relaxed">
-              We started DilSeDaan because we believe that giving from the heart should come with peace of mind. Discover the story and the people behind India's most transparent donation platform.
+            <p className="text-xl md:text-2xl text-warm-charcoal-light mb-8 leading-relaxed font-main">
+              {t('about.hero.description')}
             </p>
           </motion.div>
         </div>
@@ -52,16 +79,16 @@ export function AboutPage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid md:grid-cols-3 gap-12 items-center">
             <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }} className="md:col-span-2 warm-card p-8 md:p-12 transform -rotate-1">
-              <h2 className="text-4xl font-handwritten font-bold text-warm-charcoal mb-6">A Note from Our Founder</h2>
+              <h2 className="text-4xl font-handwritten font-bold text-warm-charcoal mb-6">{t('about.mission.title')}</h2>
               <p className="text-lg text-warm-charcoal-light leading-relaxed mb-4">
-                "Our mission is simple: to rebuild the trust in charitable giving. We envision a world where every donation creates maximum impact through <strong className="text-warm-orange font-bold relative group">complete transparency <Shield className="inline-block h-5 w-5 absolute -top-5 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity" /></strong>.
+                {t('about.mission.description')}
               </p>
               <p className="text-lg text-warm-charcoal-light leading-relaxed">
-                By leveraging cutting-edge technology like <strong className="text-warm-green font-bold relative group">blockchain <LinkIcon className="inline-block h-5 w-5 absolute -top-5 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity" /></strong> and being driven by a <strong className="text-warm-blue font-bold relative group">passionate community <Users className="inline-block h-5 w-5 absolute -top-5 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity" /></strong>, we ensure that your kindness reaches exactly where it's needed most. This is our promise to you."
+                {t('about.mission.promise')}
               </p>
               <div className="mt-8 text-right">
-                <p className="font-handwritten text-2xl text-warm-charcoal">Arjun Sharma</p>
-                <p className="text-warm-charcoal-light">Founder, DilSeDaan</p>
+                <p className="font-handwritten text-2xl text-warm-charcoal">{t('about.team.members.arjun.name')}</p>
+                <p className="text-warm-charcoal-light">{t('about.team.founder')}</p>
               </div>
             </motion.div>
             <motion.div initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: 0.2 }}>
@@ -75,15 +102,15 @@ export function AboutPage() {
       <section className="py-20 bg-warm-cream">
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-16">
-            <h2 className="text-4xl font-handwritten font-bold text-warm-charcoal mb-4 transform rotate-1">Our Guiding Principles 💎</h2>
-            <p className="text-xl text-warm-charcoal-light">These values are the heart and soul of everything we build and do.</p>
+            <h2 className="text-4xl font-handwritten font-bold text-warm-charcoal mb-4 transform rotate-1">{t('about.values.title')}</h2>
+            <p className="text-xl text-warm-charcoal-light">{t('about.values.subtitle')}</p>
           </motion.div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {values.map((value, index) => (
               <motion.div key={value.title} initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8, delay: index * 0.1 }} className="warm-card text-center group hover:shadow-handmade transition-all duration-300 transform hover:-translate-y-3">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-warm-blue/10 rounded-full mb-6 group-hover:animate-bounce-gentle"><value.icon className="h-8 w-8 text-warm-blue" /></div>
-                <h3 className="text-xl font-handwritten font-bold text-warm-charcoal mb-4 transform -rotate-1">{value.title}</h3>
-                <p className="text-warm-charcoal-light leading-relaxed">{value.description}</p>
+                <h3 className="text-xl font-handwritten font-bold text-warm-charcoal mb-4 transform -rotate-1">{t(value.title)}</h3>
+                <p className="text-warm-charcoal-light leading-relaxed">{t(value.description)}</p>
               </motion.div>
             ))}
           </div>
@@ -159,7 +186,7 @@ export function AboutPage() {
                             <Button asChild variant="secondary" size="handmade" className="bg-white text-warm-orange hover:bg-warm-cream transform hover:scale-110 hover:-rotate-2 shadow-handmade font-handwritten font-bold"><Link to="/donate"><Heart className="mr-3 h-5 w-5 animate-heart-beat" fill="currentColor" />Join Our Mission</Link></Button>
                             
                             {/* ** THE ONLY CHANGE IS ON THIS BUTTON ** */}
-                            <Button asChild variant="outline" size="handmade" className="border-2 border-white text-white hover:bg-white hover:text-warm-orange transform hover:rotate-1 font-handwritten">
+                            <Button asChild className="btn-handmade bg-white text-warm-orange hover:bg-warm-cream border-2 border-white">
                                 <Link to="/contact">Contact Us</Link>
                             </Button>
                         </div>

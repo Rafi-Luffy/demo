@@ -1,87 +1,532 @@
 {
   "navigation": {
     "home": "Home",
-    "campaigns": "Campaigns",
+    "campaigns": "Stories", 
     "impact": "Impact",
-    "transparency": "Transparency",
-    "volunteer": "Volunteer",
+    "transparency": "Trust",
+    "volunteer": "Help",
     "about": "About",
     "contact": "Contact",
     "donate": "Donate Now"
   },
   "home": {
     "hero": {
-      "title": "Transform Lives Through Transparent Giving",
-      "subtitle": "Join the future of charity donations. Every rupee is tracked on blockchain, every impact is verified, and every story is real.",
+      "subtitle": "Where hearts connect with hope",
+      "description": "Your generosity has the power to transform lives. Join thousands of compassionate donors in creating positive change across India.",
       "startDonating": "Start Donating",
       "viewTransparency": "View Transparency"
     },
     "stats": {
-      "totalDonations": "Total Donations",
-      "livesImpacted": "Lives Impacted",
-      "activeCampaigns": "Active Campaigns",
-      "countriesReached": "Countries Reached"
+      "title": "Impact Created Together",
+      "subtitle": "Real change, real stories, real impact made possible by amazing people like you",
+      "familiesFed": "Families Fed Daily",
+      "familiesFedDesc": "Nutritious meals reaching hungry families",
+      "childrenEducated": "Children Educated",
+      "childrenEducatedDesc": "Dreams taking shape through education",
+      "livesSaved": "Lives Saved",
+      "livesSavedDesc": "Medical emergencies turned into miracles",
+      "skillsTrained": "Skills Trained",
+      "skillsTrainedDesc": "Youth empowered with employable skills"
     },
-    "featuredCampaigns": {
-      "title": "Featured Campaigns",
-      "subtitle": "Make a difference today. Choose a cause that matters to you."
+    "stories": {
+      "title": "Stories of Hope",
+      "subtitle": "Real stories from real people whose lives you've touched",
+      "bridge": "From Struggle to Success",
+      "bridgeSubtitle": "Every donation creates a bridge between despair and hope"
     },
-    "features": {
-      "title": "Why Choose CharityFlow?",
-      "subtitle": "Experience the future of charitable giving with complete transparency and trust.",
-      "blockchainTransparency": {
-        "title": "Blockchain Transparency",
-        "description": "Every donation is tracked on blockchain, ensuring complete transparency and accountability."
+    "campaigns": {
+      "title": "Active Campaigns",
+      "subtitle": "Choose a cause close to your heart and make a difference today"
+    },
+    "trust": {
+      "title": "Why Trust Us"
+    }
+  },
+  "campaigns": {
+    "kindHearts": "kind hearts",
+    "progress": "Progress", 
+    "complete": "complete",
+    "raised": "raised of",
+    "moreFamiliesToHelp": "more families to help",
+    "donateWithLove": "Donate with Love",
+    "urgent": "URGENT",
+    "campaign1": {
+      "title": "Padhega India, Tabhi Toh Badhega India!",
+      "description": "Let every child hold a book, not a broom. Support education for underprivileged children across India to build a stronger nation.",
+      "category": "Education",
+      "location": "Rural Schools across India",
+      "testimonial": "Your ₹300 helped Ravi from a Delhi slum get his school books. Now he dreams of becoming an engineer!"
+    },
+    "campaign2": {
+      "title": "Ek Thali Khushiyon Ki", 
+      "description": "Feed one empty stomach, fill two hearts. Provide nutritious meals to hungry families and street children across India.",
+      "category": "Food & Nutrition",
+      "location": "Delhi, Mumbai, Kolkata Slums",
+      "testimonial": "Thanks to 89 donors, street children in Mumbai get hot meals daily. No child sleeps hungry anymore."
+    },
+    "campaign3": {
+      "title": "Beti Padhao, Sapne Sajao",
+      "description": "Educate a daughter, empower a nation. Support girl child education and break barriers to create tomorrow's leaders.",
+      "category": "Women Empowerment", 
+      "location": "Rural India, UP, Bihar",
+      "testimonial": "Your kindness helped Meera from rural Bihar attend school. She's now the first girl in her village to reach 10th grade!"
+    },
+    "campaign4": {
+      "title": "Ek Chhat – Ek Jeevan",
+      "description": "A roof today, a future tomorrow. Help homeless families get basic shelter and rebuild their lives with dignity.",
+      "category": "Housing & Shelter",
+      "location": "Delhi, Mumbai Slums",
+      "story": "Home is where hope begins. Your ₹7000 can help build a small shelter for a homeless family."
+    },
+    "campaign5": {
+      "title": "Jeevan Bachao, Muskaan Lautaao",
+      "description": "Help save a life. Bring back a smile. Support critical medical treatments for those who cannot afford healthcare.",
+      "category": "Healthcare",
+      "location": "Government Hospitals across India",
+      "story": "Every life saved is a family kept together. Your ₹2000 can contribute to life-saving medical treatment."
+    },
+    "campaign6": {
+      "title": "Garmi ho ya Sardi, Madad ho har kism ki",
+      "description": "Blankets in winter, kindness all year. Provide warm clothing and essentials to the homeless during harsh weather.",
+      "category": "Emergency Relief",
+      "location": "Delhi, Kolkata Streets",
+      "story": "Warmth is basic humanity. Your ₹200 can provide a warm blanket to a homeless person this winter."
+    },
+    "campaign7": {
+      "title": "Gaon-Gaon Paani, Har Haath Swachhta",
+      "description": "Clean water for every village, hygiene for every hand. Install water purification systems in water-scarce areas.",
+      "category": "Water & Sanitation",
+      "location": "Rural Rajasthan, Maharashtra",
+      "story": "Clean water is the foundation of healthy life. Your ₹500 can provide clean water access to a family for 6 months."
+    },
+    "campaign8": {
+      "title": "Naye Hunar, Nayi Pehchaan",
+      "description": "New skills, new identity. Provide vocational training to unemployed youth to help them become self-reliant.",
+      "category": "Skill Development",
+      "location": "Urban Slums, Rural Areas",
+      "story": "Skills transform lives and break poverty cycles. Your ₹1500 can sponsor vocational training for one person."
+    },
+    "campaign9": {
+      "title": "Maa Yamuna Ko Saaf Bhi Rakhna Hai, Zinda Bhi",
+      "description": "We must clean Yamuna, not bury her. Join river cleaning drives and environmental conservation efforts.",
+      "category": "Environment",
+      "location": "Delhi, Yamuna Riverfront",
+      "story": "Rivers are our lifelines. Your ₹300 can support river cleaning equipment and awareness campaigns."
+    },
+    "campaign10": {
+      "title": "Buzurgo Ka Haq – Apnapan aur Samman",
+      "description": "Elders deserve love, care and dignity. Support elderly care programs and ensure they live with respect.",
+      "category": "Elder Care",
+      "location": "Old Age Homes across India",
+      "story": "Our elders built this nation. Your ₹800 can provide monthly care and medicine for one senior citizen."
+    },
+    "campaign11": {
+      "title": "Khilti Muskaan, Acid ke Paar",
+      "description": "Smiles beyond scars. Support acid attack survivors with medical treatment, legal aid, and rehabilitation.",
+      "category": "Women Safety",
+      "location": "Delhi, Mumbai, Bangalore",
+      "story": "Courage shines brighter than scars. Your ₹5000 can support reconstruction surgery and therapy for a survivor."
+    },
+    "campaign12": {
+      "title": "Gaali Se Azadi, Izzat Ki Boli",
+      "description": "No abuse, just respect. Create awareness against verbal abuse and promote respectful communication in communities.",
+      "category": "Social Awareness",
+      "location": "Schools and Colleges across India",
+      "story": "Words have power to heal or harm. Your ₹100 can support respect awareness programs in one school."
+    },
+    "campaign13": {
+      "title": "Mazdoor Desh Ka Mazboot Haath",
+      "description": "Daily wagers build our nation—let's build their lives. Support migrant workers with emergency aid and skill development.",
+      "category": "Worker Welfare",
+      "location": "Construction Sites across India",
+      "story": "They build our cities, let's build their futures. Your ₹500 can provide emergency aid kit for a worker family."
+    },
+    "campaign14": {
+      "title": "Man Ki Baat, Sunne Wale Hain Hum",
+      "description": "Your mind matters. We're here to listen. Support mental health awareness and counseling services for those in need.",
+      "category": "Mental Health",
+      "location": "Counseling Centers across India",
+      "story": "Mental health is as important as physical health. Your ₹400 can sponsor one counseling session for someone in need."
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact",
+      "assistance": "Need",
+      "help": "Help?",
+      "description": "Have questions? Need help? Want to volunteer? We're here to listen and help."
+    },
+    "info": {
+      "email": {
+        "title": "Email Us",
+        "detail": "office@dilsedaan.org", 
+        "action": "Send an Email"
       },
-      "instantImpact": {
-        "title": "Instant Impact",
-        "description": "See real-time updates on how your donations are making a difference in people's lives."
+      "phone": {
+        "title": "Call Us",
+        "detail": "+91 98765 43210",
+        "action": "Call Now"
+      }
+    },
+    "form": {
+      "title": "Send us a Message",
+      "name": "Your Name",
+      "email": "Your Email", 
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "questions": {
+        "track": {
+          "q": "How do I know my donation reached the right people?",
+          "a": "Every donation is tracked on blockchain and you'll receive photo updates of your impact."
+        },
+        "tax": {
+          "q": "Is my donation tax deductible?", 
+          "a": "Yes! We're registered under section 80G, so you can claim tax benefits."
+        },
+        "volunteer": {
+          "q": "Can I volunteer with you?",
+          "a": "Absolutely! Visit our volunteer page to join our mission."
+        }
+      }
+    }
+  },
+  "volunteer": {
+    "hero": {
+      "title": "Become a Volunteer Hero! 🦸‍♀️🦸‍♂️",
+      "subtitle": "Join our family of amazing volunteers and make real difference in people's lives. Every hour you give creates ripples of joy and hope!"
+    },
+    "benefits": {
+      "impact": {
+        "title": "Make Real Impact",
+        "description": "Directly touch lives and see the immediate difference you make in communities"
       },
-      "globalCommunity": {
-        "title": "Global Community",
-        "description": "Join millions of donors worldwide who are making a positive impact together."
+      "people": {
+        "title": "Meet Amazing People",
+        "description": "Connect with like-minded souls who share your passion for helping others"
+      },
+      "experience": {
+        "title": "Gain Life Experience",
+        "description": "Develop new skills, gain confidence, and add meaningful experience to your life"
+      },
+      "certificates": {
+        "title": "Verified Certificates",
+        "description": "Receive beautiful certificates and LinkedIn recommendations for your service"
+      }
+    },
+    "opportunities": {
+      "title": "Amazing Opportunities Waiting for You! ✨",
+      "urgent": "Urgent! 🚨",
+      "skillsNeeded": "Skills needed:",
+      "joinMission": "Join This Mission",
+      "opportunity1": {
+        "title": "Feed Hungry Children 🍽️",
+        "description": "Help distribute warm meals to street children in Mumbai. Every meal brings a smile!",
+        "location": "Mumbai, Maharashtra",
+        "date": "2024-01-20",
+        "time": "10:00 AM - 2:00 PM",
+        "category": "Food & Nutrition",
+        "impact": "Feed 200+ children",
+        "skills": ["Kind Heart", "Physical Work", "Communication"]
+      },
+      "opportunity2": {
+        "title": "Teach Village Children 📚",
+        "description": "Become a teacher for a day! Help rural children with basic reading and math.",
+        "location": "Pune, Maharashtra", 
+        "date": "2024-01-22",
+        "time": "9:00 AM - 3:00 PM",
+        "category": "Education",
+        "impact": "Educate 50+ children",
+        "skills": ["Teaching", "Patience", "Hindi/English"]
+      },
+      "opportunity3": {
+        "title": "Health Camp Assistant 🏥",
+        "description": "Support doctors during free health checkups for underprivileged families.",
+        "location": "Delhi NCR",
+        "date": "2024-01-25",
+        "time": "8:00 AM - 4:00 PM",
+        "category": "Healthcare",
+        "impact": "Help 300+ patients",
+        "skills": ["Medical Background", "Organization", "Empathy"]
+      },
+      "opportunity4": {
+        "title": "Digital Literacy for Elders 💻",
+        "description": "Teach grandparents how to use smartphones and video call their families!",
+        "location": "Bangalore, Karnataka",
+        "date": "2024-01-27",
+        "time": "2:00 PM - 6:00 PM",
+        "category": "Digital Literacy",
+        "impact": "Connect 30+ elders",
+        "skills": ["Computer Skills", "Teaching", "Patience"]
+      },
+      "opportunity5": {
+        "title": "Plant Trees with Kids 🌱",
+        "description": "Join children in planting trees and teaching them about environment protection!",
+        "location": "Chennai, Tamil Nadu",
+        "date": "2024-01-28",
+        "time": "6:00 AM - 10:00 AM",
+        "category": "Environment",
+        "impact": "Plant 500+ trees",
+        "skills": ["Physical Work", "Environmental Awareness", "Fun Attitude"]
+      },
+      "opportunity6": {
+        "title": "Distribute Warm Clothes ❄️",
+        "description": "Help distribute warm blankets and clothes to homeless people during winter.",
+        "location": "Delhi, NCR",
+        "date": "2024-01-30",
+        "time": "7:00 AM - 11:00 AM",
+        "category": "Winter Relief",
+        "impact": "Warm 400+ people",
+        "skills": ["Physical Work", "Compassion", "Communication"]
+      }
+    },
+    "testimonials": {
+      "title": "What Our Volunteer Heroes Say 💬",
+      "priya": {
+        "name": "Priya Sharma",
+        "role": "Software Engineer",
+        "text": "Volunteering with DilSeDaan changed my life! Seeing children smile because of our help is priceless.",
+        "hours": "120 hours volunteered"
+      },
+      "rahul": {
+        "name": "Rahul Gupta",
+        "role": "College Student", 
+        "text": "I've made lifelong friends while helping others. It's the most rewarding thing I've ever done!",
+        "hours": "80 hours volunteered"
+      },
+      "sneha": {
+        "name": "Sneha Patel",
+        "role": "Teacher",
+        "text": "Teaching village children opened my eyes to real problems. Now I volunteer every weekend!",
+        "hours": "200 hours volunteered"
+      }
+    },
+    "signup": {
+      "title": "Join This Mission! 🚀",
+      "namePlaceholder": "Your beautiful name",
+      "emailPlaceholder": "your@email.com",
+      "phonePlaceholder": "Your phone number",
+      "whyPlaceholder": "Why do you want to volunteer? (Optional)",
+      "submit": "Submit Application",
+      "cancel": "Cancel",
+      "success": "Application Submitted! 🎉",
+      "successMessage": "Thank you for volunteering! We'll contact you with details soon."
+    },
+    "cta": {
+      "title": "Can't Find the Perfect Opportunity? 🤔",
+      "subtitle": "We're always looking for passionate volunteers! Tell us your interests and we'll create the perfect opportunity just for you.",
+      "generalSignup": "General Volunteer Signup",
+      "createOpportunity": "Create Custom Opportunity",
+      "quote": "✨ Every volunteer is a hero in someone's story ✨"
+    }
+  },
+  "transparency": {
+    "hero": {
+      "title": "Your Trust,",
+      "subtitle": "Verified On-Chain",
+      "description": "We believe every act of kindness deserves absolute clarity. Here, you can trace every rupee on an immutable blockchain ledger, from donation to impact."
+    },
+    "fundAllocation": {
+      "title": "How We Allocate Your Kindness 💝",
+      "subtitle": "Our funding categories are governed by transparent rules. Hover to learn more.",
+      "hoverPrompt": "Hover over a color to see the details!",
+      "education": {
+        "name": "Education",
+        "percentage": 32,
+        "description": "Books, uniforms, and digital learning for underprivileged children."
+      },
+      "healthcare": {
+        "name": "Healthcare", 
+        "percentage": 24,
+        "description": "Medicines, check-ups, and critical surgeries for those in need."
+      },
+      "food": {
+        "name": "Food & Nutrition",
+        "percentage": 16,
+        "description": "Hot meals and nutritional support for children and the elderly."
+      },
+      "water": {
+        "name": "Water & Sanitation",
+        "percentage": 12,
+        "description": "Clean drinking water projects and hygiene awareness campaigns."
+      },
+      "emergency": {
+        "name": "Emergency Relief",
+        "percentage": 16,
+        "description": "Immediate support for families affected by natural disasters."
+      }
+    },
+    "transactionExplorer": {
+      "title": "The Ledger of Truth 🔍",
+      "subtitle": "Each donation is immutably recorded. Fund usage is verified on-chain, with proof stored on IPFS. Search for any transaction to trace its journey.",
+      "allTransactions": "All Transactions",
+      "myTransactions": "My Transactions",
+      "searchPlaceholder": "Search by name, address, transaction hash, or campaign...",
+      "viewAuditTrail": "View Audit Trail",
+      "confirmed": "Confirmed",
+      "pending": "Pending",
+      "campaign": "Campaign",
+      "txnHash": "Txn Hash",
+      "noResults": "No results found",
+      "noResultsDesc": "Try a different search term or change the filter!",
+      "error": "Oops! Something went wrong.",
+      "donor": "Donor",
+      "timestamp": "Timestamp",
+      "donorAddress": "Donor Address",
+      "blockNumber": "Block Number",
+      "processing": "Processing...",
+      "transactionId": "Blockchain Transaction ID",
+      "viewOnEtherscan": "View on Etherscan",
+      "fundUsage": "Fund Usage & Proof-of-Impact",
+      "viewProof": "View Proof",
+      "verified": "Verified",
+      "amount": "Amount"
+    },
+    "auditModal": {
+      "title": "Complete Audit Trail"
+    },
+    "cta": {
+      "title": "Trust Built, Hearts Connected 🤝",
+      "subtitle": "This is what transparency looks like. Join our family of transparent giving and donate with complete confidence.",
+      "donateButton": "Donate with Confidence",
+      "impactButton": "See Real Impact"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Trust & Transparency",
+      "description": "We started DilSeDaan because we believe that giving from the heart should come with peace of mind."
+    },
+    "mission": {
+      "title": "A Note from Our Founder",
+      "description": "Our mission is simple: to rebuild the trust in charitable giving.",
+      "promise": "By leveraging cutting-edge technology like blockchain and being driven by a passionate community, we ensure that your kindness reaches exactly where it's needed most."
+    },
+    "values": {
+      "title": "Our Guiding Principles 💎",
+      "subtitle": "These values are the heart and soul of everything we build and do.",
+      "transparency": {
+        "title": "Radical Transparency",
+        "description": "Every rupee is tracked on the blockchain. No secrets, no hidden fees."
+      },
+      "impact": {
+        "title": "Maximum Impact", 
+        "description": "We measure and maximize the real-world effect of every donation."
+      },
+      "community": {
+        "title": "Community-Driven",
+        "description": "Building a family of donors, volunteers, and beneficiaries who care for each other."
+      },
+      "accessible": {
+        "title": "Accessible to All",
+        "description": "Making charitable giving easy and accessible, no matter the size of the gift."
+      }
+    },
+    "journey": {
+      "title": "Our Journey So Far 🛤️",
+      "subtitle": "Key milestones in our mission to transform charitable giving."
+    },
+    "milestones": {
+      "2020": {
+        "title": "The Dream Begins",
+        "description": "DilSeDaan is founded with a simple, powerful idea: make charity transparent."
+      },
+      "2021": {
+        "title": "Blockchain Integration", 
+        "description": "We launch our revolutionary transparent donation tracking system."
+      },
+      "2022": {
+        "title": "₹1 Crore Milestone",
+        "description": "Our community raises its first crore in donations—all tracked with love."
+      },
+      "2024": {
+        "title": "50,000 Lives Touched",
+        "description": "We directly help over 50,000 people across India with verified impact."
+      }
+    },
+    "team": {
+      "title": "The Hearts Behind the Mission 👥",
+      "subtitle": "Passionate humans working to make charity transparent and impactful.",
+      "founder": "Founder, DilSeDaan",
+      "members": {
+        "arjun": {
+          "name": "Arjun Sharma",
+          "role": "Founder & Visionary",
+          "bio": "Left a corporate job to make charity transparent, believing every rupee should reach those who need it.",
+          "quote": "Technology should serve humanity, not just profit."
+        },
+        "priya": {
+          "name": "Priya Patel",
+          "role": "CTO & Blockchain Architect", 
+          "bio": "Built our transparency system. Passionate about using tech for social good.",
+          "quote": "Code can change the world, one block at a time."
+        },
+        "rahul": {
+          "name": "Rahul Gupta",
+          "role": "Head of Operations",
+          "bio": "NGO veteran with 12 years of grassroots experience. Ensures every donation reaches the right hands.",
+          "quote": "Trust is earned through action, not promises."
+        },
+        "sneha": {
+          "name": "Sneha Reddy",
+          "role": "Head of Impact",
+          "bio": "Measures our real-world impact and verifies every story we share.",
+          "quote": "Every number represents a human life changed."
+        }
       }
     },
     "cta": {
-      "title": "Ready to Make a Difference?",
-      "subtitle": "Join thousands of donors who trust CharityFlow for transparent, impactful charitable giving. Start your journey today.",
-      "startDonating": "Start Donating",
-      "becomeVolunteer": "Become a Volunteer"
-    }
-  },
-  "donation": {
-    "form": {
-      "amount": "Donation Amount",
-      "customAmount": "Enter custom amount",
-      "taxBenefit": "Tax Benefit: You can save ₹{amount} in taxes (80G)",
-      "donateAnonymously": "Donate Anonymously",
-      "anonymousDescription": "Your name won't be shown publicly",
-      "fullName": "Full Name",
-      "email": "Email Address",
-      "message": "Message (Optional)",
-      "messagePlaceholder": "Share why you're donating or leave a message of support...",
-      "paymentMethod": "Payment Method",
-      "submit": "Donate ₹{amount}",
-      "processing": "Processing...",
-      "security": "Your donation is secured by 256-bit SSL encryption and blockchain technology"
-    },
-    "success": {
-      "title": "Donation Successful!",
-      "message": "Thank you for your donation of ₹{amount}. You will receive a confirmation email shortly."
+      "title": "Become Part of Our Story 💝",
+      "subtitle": "Your trust and support fuels our mission. Join us in creating a world where every act of kindness counts.",
+      "joinMission": "Join Our Mission",
+      "contactUs": "Contact Us"
     }
   },
   "common": {
+    "readMore": "Read Full Story →",
+    "seeAll": "See All Stories",
+    "success": "Success",
+    "error": "Error",
     "loading": "Loading...",
-    "error": "Something went wrong",
-    "tryAgain": "Try Again",
-    "cancel": "Cancel",
-    "continue": "Continue",
-    "back": "Back",
-    "next": "Next",
     "save": "Save",
-    "edit": "Edit",
-    "delete": "Delete",
-    "view": "View",
-    "share": "Share"
+    "cancel": "Cancel",
+    "submit": "Submit"
+  },
+  "auth": {
+    "login": {
+      "title": "Sign In",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign In with Love",
+      "success": "Welcome back! Your kindness continues.",
+      "failed": "Login failed. Please check your credentials.",
+      "demoNote": "Demo Mode",
+      "demoDescription": "Use the credentials below to test the platform:",
+      "adminCredentials": "Admin: admin@example.com / admin123",
+      "userCredentials": "User: user@example.com / user123"
+    },
+    "register": {
+      "title": "Sign Up",
+      "name": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Join Our Mission!",
+      "success": "Welcome to our family! Let's spread kindness together.",
+      "failed": "Registration failed. Please try again."
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "passwordMismatch": "Passwords don't match",
+      "passwordLength": "Password must be at least 6 characters"
+    }
+  },
+  "languages": {
+    "selectLanguage": "Select Language",
+    "en": "English",
+    "hi": "हिंदी"
   }
 }

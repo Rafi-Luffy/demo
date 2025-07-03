@@ -42,32 +42,32 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-handwritten font-bold text-white mb-6 transform -rotate-1">
+            <h3 className="text-base font-handwritten font-bold text-white mb-4 transform -rotate-1">
               Quick Links 🔗
             </h3>
-            <ul className="space-y-3">
+            <ul className="space-y-2">
               <li>
-                <Link to="/campaigns" className="text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
+                <Link to="/campaigns" className="text-sm text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
                   Stories That Need You
                 </Link>
               </li>
               <li>
-                <Link to="/impact" className="text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
+                <Link to="/impact" className="text-sm text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
                   See Real Impact
                 </Link>
               </li>
               <li>
-                <Link to="/transparency" className="text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
+                <Link to="/transparency" className="text-sm text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
                   Trust & Transparency
                 </Link>
               </li>
               <li>
-                <Link to="/volunteer" className="text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
+                <Link to="/volunteer" className="text-sm text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
                   Volunteer with Us
                 </Link>
               </li>
               <li>
-                <Link to="/dashboard" className="text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
+                <Link to="/dashboard" className="text-sm text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
                   Your Impact Dashboard
                 </Link>
               </li>
@@ -76,32 +76,32 @@ export function Footer() {
 
           {/* Support */}
           <div>
-            <h3 className="text-lg font-handwritten font-bold text-white mb-6 transform rotate-1">
+            <h3 className="text-base font-handwritten font-bold text-white mb-4 transform rotate-1">
               Need Help? 🤗
             </h3>
-            <ul className="space-y-3">
+            <ul className="space-y-2">
               <li>
-                <Link to="/about" className="text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
+                <Link to="/about" className="text-sm text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
                   Our Story
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
+                <Link to="/contact" className="text-sm text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
                   Contact Us
                 </Link>
               </li>
               <li>
-                <a href="#" className="text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
+                <a href="#" className="text-sm text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
                   FAQ & Help
                 </a>
               </li>
               <li>
-                <a href="#" className="text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
+                <a href="#" className="text-sm text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
+                <a href="#" className="text-sm text-warm-cream/80 hover:text-warm-orange transition-colors font-handwritten transform hover:translate-x-1 inline-block">
                   Terms of Love
                 </a>
               </li>
@@ -110,21 +110,21 @@ export function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-handwritten font-bold text-white mb-6 transform -rotate-1">
+            <h3 className="text-base font-handwritten font-bold text-white mb-4 transform -rotate-1">
               Reach Out 📞
             </h3>
-            <div className="space-y-4">
+            <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <Mail className="h-5 w-5 text-warm-orange" />
-                <span className="text-warm-cream/80 font-handwritten">hello@dilsedaan.org</span>
+                <Mail className="h-4 w-4 text-warm-orange" />
+                <span className="text-sm text-warm-cream/80 font-handwritten">hello@dilsedaan.org</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-warm-orange" />
-                <span className="text-warm-cream/80 font-handwritten">+91 98765 43210</span>
+                <Phone className="h-4 w-4 text-warm-orange" />
+                <span className="text-sm text-warm-cream/80 font-handwritten">+91 98765 43210</span>
               </div>
               <div className="flex items-center space-x-3">
-                <MapPin className="h-5 w-5 text-warm-orange" />
-                <span className="text-warm-cream/80 font-handwritten">Mumbai, Maharashtra, India</span>
+                <MapPin className="h-4 w-4 text-warm-orange" />
+                <span className="text-sm text-warm-cream/80 font-handwritten">Mumbai, Maharashtra, India</span>
               </div>
             </div>
             

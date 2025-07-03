@@ -110,7 +110,14 @@ export default {
         'organic': '63% 37% 54% 46% / 55% 48% 52% 45%',
       },
       fontFamily: {
-        'handwritten': ['Kalam', 'cursive'],
+        'decorative': ['Playfair Display', 'serif'],           // For elegant headings
+        'elegant': ['Cormorant Garamond', 'serif'],            // For section headings
+        'script': ['Dancing Script', 'Great Vibes', 'cursive'], // For "Dil Se" only
+        'fancy': ['Tangerine', 'Kaushan Script', 'cursive'],   // Alternative decorative
+        'serif-classic': ['Playfair Display', 'serif'],        // Clean serif
+        'serif-warm': ['Libre Baskerville', 'serif'],          // Secondary serif
+        'main': ['Poppins', 'sans-serif'],                     // Clean sans-serif for body text
+        'handwritten': ['Dancing Script', 'cursive'],          // Script style for logo only
       },
       boxShadow: {
         'warm': '0 4px 15px rgba(255, 154, 0, 0.3)',

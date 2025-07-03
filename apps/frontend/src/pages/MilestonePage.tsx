@@ -119,7 +119,7 @@ export function MilestonePage() {
     setIsSubmitting(true)
     try {
       // Upload proof documents to IPFS
-      const proofHashes = []
+      const proofHashes: string[] = []
       for (const file of proofFiles) {
         const hash = await uploadDocument(file, 'milestone', milestone.campaignId)
         proofHashes.push(hash)
